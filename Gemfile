@@ -48,7 +48,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'shopify_app'
 
-group :development, :test do
-  gem "less-rails-bootstrap"
+# group :development, :test do
+  # gem "less-rails-bootstrap"
   # gem "therubyracer", platforms: :ruby
-end
+# end
+
+gem "twitter-bootstrap-rails"
